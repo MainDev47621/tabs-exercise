@@ -8,3 +8,11 @@ body {
     width: 100%;
     height: 100vh;
 }
+
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
